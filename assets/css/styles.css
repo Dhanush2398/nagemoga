@@ -13,18 +13,13 @@
     --heading-color: #333333;
     --main-heading-color: #000000;
 }
-body {
-  font-family: 'Nunito', sans-serif;
-  font-weight: 400;
-  color: #333;
-}
+ body {
+      font-family: 'Poppins', sans-serif;
+    }
 
-h1, h2, h3, h4, h5, h6,
-.theme-btn, .section-heading {
-  font-family: 'Rubik', sans-serif;
-  font-weight: 700;
-}
-
+    h1 {
+      font-family: 'Playfair Display', serif;
+    }
 
 p{
     margin-bottom: 0;
@@ -78,7 +73,8 @@ a, a:hover, a:active, a:focus{
 .th-list li{
     display: inline-block;
     margin-right: 15px;
-    font-size: 12px;
+    font-size: 10px;
+    font-weight: 600;
 }
 
 .th-list li a i{

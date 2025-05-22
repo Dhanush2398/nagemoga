@@ -265,7 +265,7 @@ a, a:hover, a:active, a:focus{
     font-family: 'Roboto-Medium';
     font-weight: normal;
     margin-bottom: 10px;
-    color: var(--theme-color-2);
+    color: #EE8C1C !important;
 }
 
 .banner-mainheading{
@@ -2752,7 +2752,7 @@ input, input:focus, input:active, input:hover{
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.3); 
+  background-color: rgba(0, 0, 0, 0.5); 
   z-index: 1;
 }
 

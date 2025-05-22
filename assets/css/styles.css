@@ -2770,3 +2770,10 @@ input, input:focus, input:active, input:hover{
 .footer-about img{
     height: 100px;
 }
+.carousel-caption .theme-btn{
+    background-color:#00ACB1 ;
+}
+
+.carousel-caption .theme-btn:hover{
+    background-color:#EE8C1C ;
+}

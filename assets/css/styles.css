@@ -193,7 +193,7 @@ a, a:hover, a:active, a:focus{
     display: flex;
     align-items: center;
     margin-right: 15px;
-    color: var(--main-heading-color);
+    color: #06BBCC;
     font-family: 'Roboto-Medium';
     font-weight: normal;
 }
@@ -215,7 +215,7 @@ a, a:hover, a:active, a:focus{
 }
 
 .navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover{
-    color: #000000;
+    color: #EC8B1C;
 }
 
 .dropdown-menu{
@@ -229,7 +229,7 @@ a, a:hover, a:active, a:focus{
 .dropdown-item{
     padding: 4px 15px;
     font-size: 14px;
-    color: var(--main-heading-color);
+    color: #EE8C1C;
 }
 
 .dropdown-item:focus, .dropdown-item:hover{
@@ -329,7 +329,7 @@ a, a:hover, a:active, a:focus{
 .banner-layer-learn{
     width: 100%;
     margin-top: 15px;
-    color: var(--theme-color-3);
+    color:#EE8C1C;
     display: inline-block;
     text-align: right;
     font-family: 'Roboto-Medium';
@@ -360,7 +360,7 @@ a, a:hover, a:active, a:focus{
     font-family: 'Roboto-Bold';
     font-weight: normal;
     margin-bottom: 20px;
-    color: var(--main-heading-color);
+    color: #EE8C1C;
 }
 
 .section{
@@ -402,6 +402,7 @@ a, a:hover, a:active, a:focus{
     font-family: 'Roboto-Bold';
     font-weight: normal;
     margin-bottom: 15px;
+    color: #06BBCC;
 }
 
 .habout-image-wrapper{
@@ -447,7 +448,7 @@ a, a:hover, a:active, a:focus{
     text-align: center;
     font-family: 'Roboto-Bold';
     font-weight: normal;
-    color: var(--main-heading-color);
+    color: #EE8C1C;
     margin-bottom: 20px;
 }
 
@@ -470,7 +471,7 @@ a, a:hover, a:active, a:focus{
 .know-more {
     width: 100%;
     margin-top: 15px;
-    color: var(--theme-color-3);
+    color:#EE8C1C;
     display: inline-block;
     text-align: right;
     font-family: 'Roboto-Medium';
@@ -479,11 +480,16 @@ a, a:hover, a:active, a:focus{
     z-index: 15;
 }
 
+.know-more:hover {
+color: #06BBCC;
+}
+
 .know-more::after {
     font-family: "Fontawesome";
     font-weight: 400;
     content: "\f061";
     margin-left: 5px;
+   
 }
 
 .dservices-info{
@@ -496,6 +502,7 @@ a, a:hover, a:active, a:focus{
     font-family: 'Roboto-Bold';
     font-weight: normal;
     margin-bottom: 15px;
+    color: #06BBCC;
 }
 
 .dservices-card img{
@@ -620,7 +627,7 @@ a, a:hover, a:active, a:focus{
     font-size: 20px;
     line-height: 28px;
     margin: 15px 0px 5px 0px;
-    color: var(--heading-color);
+    color: #06BBCC;
     font-family: 'Roboto-Bold';
     font-weight: normal;
 }
@@ -630,6 +637,7 @@ a, a:hover, a:active, a:focus{
     line-height: 16px;
     font-family: 'Roboto-Regular';
     font-weight: normal;
+    color: #EE8C1C;
 }
 
 .team-social ul{
@@ -772,6 +780,7 @@ a:hover, button:hover{
     font-family: 'Roboto-Bold';
     font-weight: normal;
     margin-bottom: 20px;
+    color: #06CC7A;
 }
 
 .book-appointment{
@@ -1051,7 +1060,7 @@ footer{
     font-family: 'Roboto-Bold';
     font-weight: normal;
     margin-bottom: 20px;
-    color: #fff;
+    color: #EE8C1C;
 }
 
 .footer-link-list{
@@ -1712,7 +1721,7 @@ footer{
     font-family: 'Roboto-Bold';
     font-weight: normal;
     margin-bottom: 30px;
-    color: var(--main-heading-color)
+    color: #EE8C1C
 }
 
 .pp2-body h3 span{
@@ -1767,7 +1776,7 @@ footer{
     font-family: 'Roboto-Bold';
     font-weight: normal;
     margin-bottom: 20px;
-    color: var(--main-heading-color);
+    color: #EE8C1C;
 }
 
 .hours-list-wrapper.dt h4{
@@ -1775,7 +1784,7 @@ footer{
     font-family: 'Roboto-Bold';
     font-weight: normal;
     margin-bottom: 0px;
-    color: var(--main-heading-color);
+    color: #EE8C1C;
 }
 
 .hours-list-wrapper ul{
@@ -1812,7 +1821,7 @@ footer{
     font-family: 'Roboto-Bold';
     font-weight: normal;
     margin-bottom: 20px;
-    color: var(--main-heading-color);
+    color: #EE8C1C;
 }
 
 
@@ -2619,7 +2628,7 @@ input, input:focus, input:active, input:hover{
 .banner-layer-heading {
     font-size: 20px;
     font-weight: 600;
-    color: #333;
+    color: #EE8C1C;
     margin: 0;
 }
 

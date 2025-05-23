@@ -1,5 +1,4 @@
 
-
 :root{
     --theme-color-1: #015D67;
     --theme-color-2: #00ACB1;
@@ -13,13 +12,15 @@
     --heading-color: #333333;
     --main-heading-color: #000000;
 }
- body {
-      font-family: 'Poppins', sans-serif;
-    }
+h1, h2, h3 {
+  font-family: 'Poppins', sans-serif !important;
+  font-size: 32px !important;
+  font-weight: 700 !important;
+}
+body, p {
+  font-family: 'Roboto', sans-serif !important;
+}
 
-    h1 {
-      font-family: 'Playfair Display', serif;
-    }
 
 p{
     margin-bottom: 0;
@@ -172,8 +173,7 @@ a, a:hover, a:active, a:focus{
     align-items: center;
     margin-right: 15px;
     color: #06BBCC;
-    font-family: 'Roboto-Medium';
-    font-weight: normal;
+    font-weight: bold;
 }
 
 .dropdown .nav-link::after{
@@ -187,7 +187,6 @@ a, a:hover, a:active, a:focus{
     font-size: 32px;
     line-height: 38px;
     color: #000000 !important;
-    font-family: 'Roboto-Bold';
     font-style: normal;
     width: 180px;
 }
@@ -254,7 +253,6 @@ a, a:hover, a:active, a:focus{
 
 .banner-smallheading{
     font-size: 22px;
-    font-family: 'Roboto-Medium';
     font-weight: normal;
     margin-bottom: 10px;
     color: #EE8C1C !important;
@@ -262,7 +260,6 @@ a, a:hover, a:active, a:focus{
 
 .banner-mainheading{
     font-size: 55px;
-    font-family: 'Roboto-Bold';
     font-weight: normal;
     margin-bottom: 10px;
     color: #333;
@@ -314,7 +311,6 @@ a, a:hover, a:active, a:focus{
 .banner-layer-heading{
     font-size: 20px;
     line-height: 23px;
-    font-family: 'Roboto-Bold';
     font-weight: normal;
     color: var(--heading-color);
     width: 100%;
@@ -327,7 +323,6 @@ a, a:hover, a:active, a:focus{
     color:#000;
     display: inline-block;
     text-align: right;
-    font-family: 'Roboto-Medium';
     font-weight: normal;
     position: relative;
     z-index: 15;
@@ -352,14 +347,13 @@ a, a:hover, a:active, a:focus{
 .habout-heading{
     font-size: 40px;
     line-height: 47px;
-    font-family: 'Roboto-Bold';
-    font-weight: normal;
+    font-weight: bold;
     margin-bottom: 20px;
     color: #EE8C1C;
 }
 
 .section{
-    padding: 60px 0px;
+    padding: 40px 0px;
 }
 
 .habout-list{
@@ -394,8 +388,7 @@ a, a:hover, a:active, a:focus{
 .habout-info h4{
     font-size: 20px;
     line-height: 23px;
-    font-family: 'Roboto-Bold';
-    font-weight: normal;
+    font-weight: bold;
     margin-bottom: 15px;
     color: #06BBCC;
 }
@@ -441,8 +434,7 @@ a, a:hover, a:active, a:focus{
     font-size: 40px;
     line-height: 47px;
     text-align: center;
-    font-family: 'Roboto-Bold';
-    font-weight: normal;
+    font-weight: bold;
     color: #EE8C1C;
     margin-bottom: 20px;
 }
@@ -469,7 +461,6 @@ a, a:hover, a:active, a:focus{
     color:#0b0b0b;
     display: inline-block;
     text-align: right;
-    font-family: 'Roboto-Medium';
     font-weight: normal;
     position: relative;
     z-index: 15;
@@ -499,8 +490,7 @@ color: #082C3C;
 .dservices-info h4{
     font-size: 26px;
     line-height: 26px;
-    font-family: 'Roboto-Bold';
-    font-weight: normal;
+    font-weight: bold;
     margin-bottom: 15px;
     color: #fff;
 }
@@ -550,7 +540,6 @@ color: #082C3C;
     align-items: center;
     font-size: 20px;
     line-height: 28px;
-    font-family: 'Roboto-Medium';
     font-weight: normal;
     color: var(--heading-color);
     text-align: left;
@@ -584,8 +573,7 @@ color: #082C3C;
     color: #015D67;
     font-size: 24px;
     line-height: 28px;
-    font-family: 'Roboto-Bold';
-    font-weight: normal;
+    font-weight: bold;
     margin: 10px 0px 20px 0px;
 }
 
@@ -607,7 +595,6 @@ color: #082C3C;
 .tab-point-info h4{
     font-size: 20px;
     line-height: 28px;
-    font-family: 'Roboto-Bold';
     font-weight: normal;
     margin-bottom: 10px;
 }
@@ -629,10 +616,8 @@ color: #082C3C;
 
 .team-profile-info h3{
     font-size: 20px;
-    line-height: 28px;
     margin: 15px 0px 5px 0px;
     color: #fff;
-    font-family: 'Roboto-Bold';
     font-weight: normal;
 }
 
@@ -716,7 +701,6 @@ a:hover, button:hover{
     position: relative;
     font-size: 28px;
     line-height: 33px;
-    font-family: 'Roboto-Bold';
     font-weight: normal;
     margin-bottom: 30px;
     color: #fff;
@@ -781,7 +765,6 @@ a:hover, button:hover{
 .s2-body h3{
     font-size: 24px;
     line-height: 28px;
-    font-family: 'Roboto-Bold';
     font-weight: normal;
     margin-bottom: 20px;
     color: #06CC7A;
@@ -812,7 +795,6 @@ a:hover, button:hover{
     font-size: 28px;
     line-height: 33px;
     color: #fff;
-    font-family: 'Roboto-Bold';
     font-weight: normal;
     margin-bottom: 30px;
 }
@@ -893,7 +875,6 @@ a:hover, button:hover{
 .blog-content-card h3 a{
     font-size: 20px;
     line-height: 23px;
-    font-family: 'Roboto-Bold';
     font-weight: normal;
     margin-bottom: 10px;
     color: var(--heading-color);
@@ -944,7 +925,6 @@ a:hover, button:hover{
 .blod-uploader-details h4{
     font-size: 12px;
     line-height: 14px;
-    font-family: 'Roboto-Medium';
     font-weight: normal;
     margin-bottom: 5px;
 }
@@ -971,7 +951,6 @@ a:hover, button:hover{
 
 .testimonial-card p{
     font-style: italic;
-    font-family: 'Roboto-Medium';
     font-weight: normal;
     margin-bottom: 20px;
 }
@@ -989,10 +968,9 @@ a:hover, button:hover{
 }
 
 .ta-info h3{
-    font-family: 'Roboto-Medium';
-    font-weight: normal;
+    font-weight: bold !important;
     margin-bottom: 5px;
-    font-size: 14px;
+    font-size: 14px !important;
     line-height: 16px;
 }
 
@@ -1048,7 +1026,6 @@ footer{
 .footer-brand-logo-text{
     font-size: 36px;
     line-height: 42px;
-    font-family: 'Roboto-Bold';
     font-weight: normal;
     margin-bottom: 20px;
     color: #fff;
@@ -1061,7 +1038,6 @@ footer{
 .footer-heading{
     font-size: 20px;
     line-height: 28px;
-    font-family: 'Roboto-Bold';
     font-weight: normal;
     margin-bottom: 20px;
     color: #EE8C1C;
@@ -1102,13 +1078,11 @@ footer{
 }
 
 .footer-link-list.contact li span{
-    font-family: 'Roboto-Bold';
     font-weight: normal;
 }
 
 .folow-us-heading{
     margin: 20px 0px;
-    font-family: 'Roboto-Bold';
     font-weight: normal;
     font-size: 18px;
     color: #fff;
@@ -1219,7 +1193,6 @@ footer{
 .breadcrumb-heading{
     font-size: 32px;
     line-height: 35px;
-    font-family: 'Roboto-Bold';
     font-weight: normal;
     color: #fff;
     margin-bottom: 10px;
@@ -1245,7 +1218,6 @@ footer{
     font-size: 40px;
     line-height: 47px;
     text-align: center;
-    font-family: 'Roboto-Bold';
     font-weight: normal;
     color: #fff;
     margin-bottom: 20px;
@@ -1281,7 +1253,6 @@ footer{
 }
 
 .faq-content-heading{
-    font-family: 'Roboto-Bold';
     font-weight: normal;
     font-size: 20px;
     margin-bottom: 20px;
@@ -1298,7 +1269,6 @@ footer{
 .about-service-wrapper h3{
     font-size: 36px;
     line-height: 43px;
-    font-family: 'Roboto-Bold';
     font-weight: normal;
     margin-bottom: 20px;
     color: var(--heading-color);
@@ -1307,7 +1277,6 @@ footer{
 .about-service-wrapper h4{
     font-size: 18px;
     line-height: 25px;
-    font-family: 'Roboto-Medium';
     font-weight: normal;
     margin-bottom: 10px;
     color: var(--heading-color);
@@ -1329,7 +1298,6 @@ footer{
 .progress-bar-label span{
     font-size: 12px;
     line-height: 30px;
-    font-family: 'Roboto-Medium';
     font-weight: normal;
     color: var(--heading-color);
 }
@@ -1365,7 +1333,6 @@ footer{
     width: 100%;
     display: inline-block;
     font-size: 18px;
-    font-family: 'Roboto-Bold';
     font-weight: normal;
     color: var(--heading-color);
 }
@@ -1419,14 +1386,12 @@ footer{
 
 .doctor-info h3{
     font-size: 18px;
-    font-family: 'Roboto-Bold';
     font-weight: normal;
     margin-bottom: 10px;
 }
 
 .doctor-info h4{
     font-size: 18px;
-    font-family: 'Roboto-Medium';
     font-weight: normal;
     margin-bottom: 10px;
 }
@@ -1442,7 +1407,6 @@ footer{
 .doctor-info-heading{
     margin: 20px 0px;
     font-size: 20px;
-    font-family: 'Roboto-Bold';
     font-weight: normal;
     color: var(--heading-color);
 }
@@ -1473,7 +1437,6 @@ footer{
 .doctors-box h4 {
     font-size: 21px;
     margin: 24px 0 10px;
-    font-family: 'Roboto-Bold';
     font-weight: normal;
 }
 
@@ -1521,7 +1484,6 @@ footer{
 }
 
 .emergency-box h2{
-    font-family: 'Roboto-Bold';
     font-weight: normal;
     font-size: 40px;
     margin-bottom: 20px;
@@ -1550,7 +1512,6 @@ footer{
 
 .emergency-text h4{
     font-size: 20px;
-    font-family: 'Roboto-Bold';
     font-weight: normal;
 }
 
@@ -1580,18 +1541,15 @@ footer{
     margin: 20px 0 16px;
     color: var(--theme-color-2);
     font-size: 40px;
-    font-family: 'Roboto-Bold';
     font-weight: normal;
 }
 
 .pricing li h2 span {
     font-size: 22px;
-    font-family: 'Roboto-Medium';
     font-weight: normal;
 }
 
 .pricing li h3{
-    font-family: 'Roboto-Bold';
     font-weight: normal;
     font-size: 25px;
     margin-bottom: 20px;
@@ -1666,7 +1624,6 @@ footer{
 
 .mtc-content h3{
     font-size: 22px;
-    font-family: 'Roboto-Bold';
     font-weight: normal;
     color: var(--heading-color);
 }
@@ -1714,7 +1671,6 @@ footer{
 
 .pp2-body h4{
     font-size: 18px;
-    font-family: 'Roboto-Bold';
     font-weight: normal;
     margin-bottom: 10px;
     color: var(--heading-color)
@@ -1722,7 +1678,6 @@ footer{
 
 .pp2-body h3{
     font-size: 35px;
-    font-family: 'Roboto-Bold';
     font-weight: normal;
     margin-bottom: 30px;
     color: #EE8C1C
@@ -1777,7 +1732,6 @@ footer{
 
 .hours-list-wrapper.dt h3{
     font-size: 30px;
-    font-family: 'Roboto-Bold';
     font-weight: normal;
     margin-bottom: 20px;
     color: #EE8C1C;
@@ -1785,7 +1739,6 @@ footer{
 
 .hours-list-wrapper.dt h4{
     font-size: 24px;
-    font-family: 'Roboto-Bold';
     font-weight: normal;
     margin-bottom: 0px;
     color: #EE8C1C;
@@ -1822,7 +1775,6 @@ footer{
 
 .hours-info-wrapper h3{
     font-size: 30px;
-    font-family: 'Roboto-Bold';
     font-weight: normal;
     margin-bottom: 20px;
     color: #EE8C1C;
@@ -1953,7 +1905,6 @@ footer{
 }
 
 .portfolio-overlay h3{
-    font-family: 'Roboto-Bold';
     font-weight: normal;
     font-size: 24px;
     color: #fff;
@@ -2005,7 +1956,6 @@ footer{
     background-color: var(--theme-color-2);
     padding: 15px 15px;
     color: #fff;
-    font-family: 'Roboto-Bold';
     font-weight: normal;
     margin-bottom: 15px;
     font-size: 16px;
@@ -2081,7 +2031,6 @@ footer{
 .blog-date h3 {
     font-size: 34px;
     margin: 0;
-    font-family: 'Roboto-Bold';
     font-weight: normal;
 }
 
@@ -2102,7 +2051,6 @@ footer{
 .blog-text-wrap h3{
     font-size: 20px;
     margin-bottom: 15px;
-    font-family: 'Roboto-Bold';
     font-weight: normal;
 }
 
@@ -2130,7 +2078,6 @@ footer{
 .blog-text-wrap h2{
     font-size: 32px;
     margin-bottom: 15px;
-    font-family: 'Roboto-Bold';
     font-weight: normal;
 }
 
@@ -2139,7 +2086,6 @@ footer{
     letter-spacing: 1px;
     line-height: 1.5;
     margin-bottom: 15px;
-    font-family: 'Roboto-Medium';
 }
 
 .blog-detail .blog-text-wrap{
@@ -2223,7 +2169,6 @@ footer{
 .blog-author-content h4{
     font-size: 18px;
     margin-bottom: 15px;
-    font-family: 'Roboto-Bold';
     font-weight: normal;
 }
 
@@ -2255,7 +2200,6 @@ footer{
 .comment-wrap h3 {
     margin: 0 0 24px;
     font-size: 25px;
-    font-family: 'Roboto-Bold';
     font-weight: normal;
 }
 
@@ -2505,7 +2449,6 @@ input, input:focus, input:active, input:hover{
 .service-info-quote-text{
     font-style: italic;
     font-weight: normal;
-    font-family: 'Roboto-Bold';
     color: var(--theme-color-2);
     font-size: 20px;
     margin-bottom: 20px;

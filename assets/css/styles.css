@@ -12,13 +12,14 @@
     --heading-color: #333333;
     --main-heading-color: #000000;
 }
-h1, h2, h3 {
-  font-family: 'Poppins', sans-serif !important;
-  font-size: 32px !important;
-  font-weight: 700 !important;
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Jaro', sans-serif;
 }
-body, p {
-  font-family: 'Roboto', sans-serif !important;
+
+/* Paragraphs and content text */
+body, p, span, li {
+  font-family: 'EB Garamond', serif;
 }
 
 
@@ -74,7 +75,7 @@ a, a:hover, a:active, a:focus{
 .th-list li{
     display: inline-block;
     margin-right: 15px;
-    font-size: 10px;
+    font-size: 14px;
     font-weight: 600;
 }
 
@@ -2729,4 +2730,26 @@ input, input:focus, input:active, input:hover{
 .footer-about h2{
     color: #EE8C1C;
     font-weight: 800;
+}
+
+
+nav h2 {
+  font-size: 32px;
+  color: #015D67;
+  margin-left: 15px;
+  font-size: 44px;
+
+}
+
+@media (max-width: 767px) {
+  nav h2 {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0;
+    white-space: nowrap;
+  }
 }
